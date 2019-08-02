@@ -8,7 +8,6 @@ var transporter = nodemailer.createTransport({
     }
 });
 
-// setup e-mail data, even with unicode symbols
 var mailOptions = {
     from: 'sirkaushal@outlook.com',
     to: 'sirkaushalkumar@gmail.com',
